@@ -1,0 +1,38 @@
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.exe
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.pdb
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.xml
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Form1.resources
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Form2.resources
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Form3.resources
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Resources.resources
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.vbproj.GenerateResource.Cache
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.exe
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.xml
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.pdb
+C:\Users\ICHA\Documents\Visual Studio 2010\Projects\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Menu_Utama.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.exe.config
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.exe
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.pdb
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\bin\Debug\Tugas UAS.xml
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.laporan_data_mutasi_jabatan.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.laporan_data_mutasi_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.laporan_data_pangkat_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.laporan_data_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.laporan_data_pensiun.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.login.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.master_golongan.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.master_jabatan.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.master_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.pengaturan_ubah_admin.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.transaksi_mutasi_jabatan.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.transaksi_mutasi_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.transaksi_pangkat_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Menu_Utama.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.Resources.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas_UAS.transaksi_pensiun_pegawai.resources
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.vbproj.GenerateResource.Cache
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.exe.licenses
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.exe
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.xml
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.pdb
+D:\Tugas besar VB\Tugas UAS\Tugas UAS\obj\x86\Debug\Tugas UAS.vbprojResolveAssemblyReference.cache

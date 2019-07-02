@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23638A81-D0DA-4E53-8A18-E0C382D54D76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tugas_UAS.My.MyApplication</StartupObject>
+    <RootNamespace>Tugas_UAS</RootNamespace>
+    <AssemblyName>Tugas UAS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tugas UAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tugas UAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="laporan_data_mutasi_jabatan.Designer.vb">
+      <DependentUpon>laporan_data_mutasi_jabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_data_mutasi_jabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_data_mutasi_pegawai.Designer.vb">
+      <DependentUpon>laporan_data_mutasi_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_data_mutasi_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_data_pangkat_pegawai.Designer.vb">
+      <DependentUpon>laporan_data_pangkat_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_data_pangkat_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_data_pegawai.Designer.vb">
+      <DependentUpon>laporan_data_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_data_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_data_pensiun.Designer.vb">
+      <DependentUpon>laporan_data_pensiun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan_data_pensiun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master_golongan.Designer.vb">
+      <DependentUpon>master_golongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master_golongan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master_jabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master_jabatan.Designer.vb">
+      <DependentUpon>master_jabatan.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master_pegawai.Designer.vb">
+      <DependentUpon>master_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="pengaturan_ubah_admin.Designer.vb">
+      <DependentUpon>pengaturan_ubah_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pengaturan_ubah_admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_laporan data_pensiun.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_laporan data_pensiun.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_laporan_data_pegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_laporan_data_pegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_laporan_mutasi_jabatan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_laporan_mutasi_jabatan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_laporan_mutasi_pegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_laporan_mutasi_pegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_laporan_pangkat_pegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_laporan_pangkat_pegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="transaksi_mutasi_jabatan.Designer.vb">
+      <DependentUpon>transaksi_mutasi_jabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksi_mutasi_jabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaksi_mutasi_pegawai.Designer.vb">
+      <DependentUpon>transaksi_mutasi_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksi_mutasi_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaksi_pangkat_pegawai.Designer.vb">
+      <DependentUpon>transaksi_pangkat_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksi_pangkat_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Utama.Designer.vb">
+      <DependentUpon>Menu_Utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="transaksi_pensiun_pegawai.Designer.vb">
+      <DependentUpon>transaksi_pensiun_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksi_pensiun_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="laporan_data_mutasi_jabatan.resx">
+      <DependentUpon>laporan_data_mutasi_jabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_data_mutasi_pegawai.resx">
+      <DependentUpon>laporan_data_mutasi_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_data_pangkat_pegawai.resx">
+      <DependentUpon>laporan_data_pangkat_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_data_pegawai.resx">
+      <DependentUpon>laporan_data_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_data_pensiun.resx">
+      <DependentUpon>laporan_data_pensiun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master_golongan.resx">
+      <DependentUpon>master_golongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master_jabatan.resx">
+      <DependentUpon>master_jabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master_pegawai.resx">
+      <DependentUpon>master_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="pengaturan_ubah_admin.resx">
+      <DependentUpon>pengaturan_ubah_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_laporan data_pensiun.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_laporan data_pensiun.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_laporan_data_pegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_laporan_data_pegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_laporan_mutasi_jabatan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_laporan_mutasi_jabatan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_laporan_mutasi_pegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_laporan_mutasi_pegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_laporan_pangkat_pegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_laporan_pangkat_pegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksi_mutasi_jabatan.resx">
+      <DependentUpon>transaksi_mutasi_jabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksi_mutasi_pegawai.resx">
+      <DependentUpon>transaksi_mutasi_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksi_pangkat_pegawai.resx">
+      <DependentUpon>transaksi_pangkat_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Utama.resx">
+      <DependentUpon>Menu_Utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksi_pensiun_pegawai.resx">
+      <DependentUpon>transaksi_pensiun_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tugas UAS", "Tugas UAS\Tugas UAS.vbproj", "{23638A81-D0DA-4E53-8A18-E0C382D54D76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23638A81-D0DA-4E53-8A18-E0C382D54D76}.Debug|x86.ActiveCfg = Debug|x86
+		{23638A81-D0DA-4E53-8A18-E0C382D54D76}.Debug|x86.Build.0 = Debug|x86
+		{23638A81-D0DA-4E53-8A18-E0C382D54D76}.Release|x86.ActiveCfg = Release|x86
+		{23638A81-D0DA-4E53-8A18-E0C382D54D76}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
